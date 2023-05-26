@@ -1,3 +1,5 @@
+import perfilImg from "../assets/img/perfil.png";
+
 export default function About() {
   return (
     <section className="container mx-auto my-4 max-w-5xl p-4">
@@ -86,7 +88,7 @@ export default function About() {
               </tbody>
             </table>
           </div>
-          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url(https://images.unsplash.com/photo-1601455763557-db1bea8a9a5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhciUyMHBob3RvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60)] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
+          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url('#')] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
         </div>
       </div>
     </section>
