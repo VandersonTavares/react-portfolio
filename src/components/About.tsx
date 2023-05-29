@@ -40,10 +40,10 @@ export default function About() {
                   </td>
                   <td>
                     <a
-                      href="tel:+551299999999"
+                      href="tel:+5561993358258"
                       className="underline hover:text-blue-800"
                     >
-                      +55 61 9.999-9999
+                      +55 61 9.9335-8258
                     </a>
                   </td>
                 </tr>
@@ -53,10 +53,10 @@ export default function About() {
                   </td>
                   <td>
                     <a
-                      href="mailto:test@testemail.com"
+                      href="mailto:zerobyrox@gmail.com"
                       className="underline hover:text-blue-800"
                     >
-                      test@testemail.com
+                      zerobyrox@gmail.com
                     </a>
                   </td>
                 </tr>
@@ -88,9 +88,12 @@ export default function About() {
               </tbody>
             </table>
           </div>
-          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url('#')] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
+          <div
+            className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray- bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"
+            style={{ backgroundImage: `url(${perfilImg})` }}
+          ></div>
         </div>
       </div>
     </section>
-  )
+  );
 }
