@@ -1,21 +1,27 @@
 import { HiArrowTopRightOnSquare } from "react-icons/hi2"
+import { AiFillGithub } from "react-icons/ai";
+
+import fenixImg from "../assets/img/fenix-image2.jpg";
+import barberImg from "../assets/img/barber-image-2.jpg";
 
 export default function Projects() {
   const projects = [
     {
-      title: "Projeto 1",
-      description: "Descrição do projeto 1",
+      title: "Colégio Fênix",
+      description: "Projeto de uma escola particular.",
       image:
-        "https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1605&q=80",
-      link: "#",
+        fenixImg,
+      link: "https://adorable-sundae-b89d6e.netlify.app/",
+      repo: "https://github.com/VandersonTavares/colegio-fenix",
       colSpan: "col-span-1",
     },
     {
-      title: "Projeto 2",
-      description: "Descrição do projeto 2",
+      title: "Barbearia Ponto Chique",
+      description: "Projeto modelo do primeiro site dessa barbearia.",
       image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYnNpdGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
+        barberImg,
+      link: "https://gentle-faloodeh-95b399.netlify.app/",
+      repo: "https://github.com/VandersonTavares/barbershop",
       colSpan: "col-span-1 md:col-span-2",
     },
     {
@@ -74,9 +80,14 @@ export default function Projects() {
                     {project.title}
                   </h4>
                   <p className=" mb-4 text-sm">{project.description}</p>
-                  <a href={project.link} target="_blank">
-                    <HiArrowTopRightOnSquare className="h-6 w-6" />
-                  </a>
+                  <div className="flex gap-3">
+                    <a href={project.link} target="_blank" title="Demo">
+                      <HiArrowTopRightOnSquare className="h-6 w-6" />
+                    </a>
+                    <a href={project.repo} target="_blank" title="Ir para o código">
+                      <AiFillGithub className="h-6 w-6" />
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
