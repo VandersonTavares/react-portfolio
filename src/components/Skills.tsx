@@ -9,10 +9,19 @@ import node from "../assets/img/nodejs.svg";
 export default function Skills() {
   const educations = [
     {
-      name: "Curso de Desenvolvimento Web Full Stack | Dev Samurai",
+      name: "Analise e Desenvolvimento de Sistemas | UNICESUMAR",
     },
     {
-      name: "Curso de Desenvolvimento Mobile | Dev Samurai",
+      name: "Sistemas para Internet | ESTÁCIO",
+    },
+    {
+      name: "Pós Graduação em Segurança de Dados | FAEL",
+    },
+    {
+      name: "Curso Bootcamp Spring React 3.0 | Dev Superior",
+    },
+    {
+      name: "Curso Dominando o React | Dev Samurai",
     },
   ]
 
