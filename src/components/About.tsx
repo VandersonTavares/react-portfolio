@@ -9,8 +9,7 @@ export default function About() {
           <span className="font-handwriting text-4xl">Mim</span>
         </h2>
         <p className="relative text-sm text-gray-600">
-          Tenho mais de 10 projetos executados e gostaria que o próximo seja o
-          seu.
+          Tenho mais de 10 projetos pessoais em meu portfolio.
         </p>
         <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-100/40" />
       </div>

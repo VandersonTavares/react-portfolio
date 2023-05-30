@@ -3,6 +3,9 @@ import { AiFillGithub } from "react-icons/ai";
 
 import fenixImg from "../assets/img/fenix-image2.jpg";
 import barberImg from "../assets/img/barber-image-2.jpg";
+import vscode from "../assets/img/vscode-img.png";
+import pokedex from "../assets/img/pokedex.jpg";
+import cellshop from "../assets/img/cellshopbanner.png";
 
 export default function Projects() {
   const projects = [
@@ -25,27 +28,30 @@ export default function Projects() {
       colSpan: "col-span-1 md:col-span-2",
     },
     {
-      title: "Projeto 3",
-      description: "Descrição do projeto 3",
+      title: "Vs-Code Protfolio",
+      description: "Meu primeiro portfolio inspirado na IDE.",
       image:
-        "https://media.istockphoto.com/id/1305995602/photo/responsive-floating-responsive-design.jpg?b=1&s=170667a&w=0&k=20&c=uFqBz27v_B0UxcslnvZxd9c0D9eJAef7veRZf6b-v-A=",
-      link: "#",
+        vscode,
+      link: "https://vanderson-portfolio.netlify.app/",
+      repo: "https://github.com/VandersonTavares/vscode-portifolio",
       colSpan: "col-span-1",
     },
     {
-      title: "Projeto 4",
-      description: "Descrição do projeto 4",
+      title: "Pokedéx",
+      description: "Pokedéx consumindo 2 API's.",
       image:
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        pokedex,
       link: "#",
+      repo: "https://github.com/VandersonTavares/pokedex",
       colSpan: "col-span-1",
     },
     {
-      title: "Projeto 5",
-      description: "Descrição do projeto 5",
+      title: "Cellshop",
+      description: "Projeto teste utilizando local storage.",
       image:
-        "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9iaWxlJTIwYXBwfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
+        cellshop,
+      repo: "https://github.com/VandersonTavares/cellshop",
+      link: "https://cellshop-demo.netlify.app/",
       colSpan: "col-span-1",
     },
   ]
