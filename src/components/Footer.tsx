@@ -1,7 +1,9 @@
-const Footer = () => {
+export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <div className="container mx-auto flex max-w-4xl p-4 text-sm">
+      <p className="flex-grow text-center">
+        &copy; {new Date().getFullYear()} &middot; Todos os direitos reservados.
+      </p>
+    </div>
+  );
 }
-
-export default Footer

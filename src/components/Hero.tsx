@@ -1,5 +1,7 @@
 import { HiDownload } from "react-icons/hi";
 
+import cv from "../../public/Vanderson Tavares V5.pdf";
+
 export default function Hero() {
   return (
     <>
@@ -38,7 +40,8 @@ export default function Hero() {
               </a>
               <span className="italic text-gray-500">ou</span>
               <a
-                href="#"
+                href="Vanderson Tavares V5.pdf"
+                // download
                 target="_blank"
                 className="button flex items-center gap-2 text-gray-600 hover:text-gray-900"
               >
