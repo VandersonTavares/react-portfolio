@@ -1,7 +1,5 @@
 import { HiDownload } from "react-icons/hi";
 
-import cv from "../../public/Vanderson Tavares V5.pdf";
-
 export default function Hero() {
   return (
     <>
