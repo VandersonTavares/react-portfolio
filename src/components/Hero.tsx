@@ -38,7 +38,7 @@ export default function Hero() {
               </a>
               <span className="italic text-gray-500">ou</span>
               <a
-                href="Vanderson Tavares V5.pdf"
+                href="Vanderson Tavares v6.pdf"
                 // download
                 target="_blank"
                 className="button flex items-center gap-2 text-gray-600 hover:text-gray-900"
