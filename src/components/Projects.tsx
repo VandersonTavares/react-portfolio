@@ -32,7 +32,7 @@ export default function Projects() {
       description: "Meu primeiro portfolio inspirado na IDE.",
       image:
         vscode,
-      link: "https://vanderson-portfolio.netlify.app/",
+      link: "https://old-vandersonportfolio.netlify.app/",
       repo: "https://github.com/VandersonTavares/vscode-portifolio",
       colSpan: "col-span-1",
     },
