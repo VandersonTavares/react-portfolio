@@ -5,7 +5,7 @@ import fenixImg from "../assets/img/fenix-image2.jpg";
 import barberImg from "../assets/img/barber-image-2.jpg";
 import vscode from "../assets/img/vscode-img.png";
 import pokedex from "../assets/img/pokedex.jpg";
-import cellshop from "../assets/img/cellshopbanner.png";
+import construcao from "../assets/img/construcao.png";
 
 export default function Projects() {
   const projects = [
@@ -19,13 +19,21 @@ export default function Projects() {
       colSpan: "col-span-1",
     },
     {
+      title: "CheckSpeech AI",
+      description: "Desafio Desenvolvedor Front-End da MostQi.",
+      image: construcao,
+      repo: "https://github.com/VandersonTavares/CheckSpeechAi",
+      link: "#",
+      colSpan: "col-span-1 md:col-span-2",
+    },
+    {
       title: "Barbearia Ponto Chique",
-      description: "Projeto modelo do primeiro site dessa barbearia.",
+      description: "Primeiro site dessa barbearia.",
       image:
         barberImg,
       link: "https://gentle-faloodeh-95b399.netlify.app/",
       repo: "https://github.com/VandersonTavares/barbershop",
-      colSpan: "col-span-1 md:col-span-2",
+      colSpan: "col-span-1",
     },
     {
       title: "Vs-Code Protfolio",
@@ -43,15 +51,6 @@ export default function Projects() {
         pokedex,
       link: "#",
       repo: "https://github.com/VandersonTavares/pokedex",
-      colSpan: "col-span-1",
-    },
-    {
-      title: "Cellshop",
-      description: "Projeto teste utilizando local storage.",
-      image:
-        cellshop,
-      repo: "https://github.com/VandersonTavares/cellshop",
-      link: "https://cellshop-demo.netlify.app/",
       colSpan: "col-span-1",
     },
   ]
