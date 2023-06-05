@@ -19,7 +19,7 @@ export default function Services() {
     }, 
     {
       title: "Mobile",
-      description: "Desenvolvimento de aplicativos Android e iOS.",
+      description: "Estou em processo de aprendizagem em React Native e estou me dedicando para aprimorar minhas habilidades nessa tecnologia.",
       icon: <HiDevicePhoneMobile className="h-12 w-12" />,
     },
   ]
