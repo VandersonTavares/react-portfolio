@@ -11,7 +11,7 @@ export default function Projects() {
   const projects = [
     {
       title: "Colégio Fênix",
-      description: "Projeto de uma escola particular.",
+      description: "Projeto desatualizado, não responsivo.",
       image:
         fenixImg,
       link: "https://adorable-sundae-b89d6e.netlify.app/",
