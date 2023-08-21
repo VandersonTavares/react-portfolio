@@ -33,7 +33,7 @@ export default function Projects() {
       description: "Age calculator app.",
       image:
       ageCalculator,
-      link: "#",
+      link: "https://exquisite-cactus-43d0a6.netlify.app",
       repo: "https://github.com/VandersonTavares/age-calculator",
       colSpan: "col-span-1",
     },
