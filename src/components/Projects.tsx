@@ -6,6 +6,8 @@ import barberImg from "../assets/img/barber-image-2.jpg";
 import vscode from "../assets/img/vscode-img.png";
 import pokedex from "../assets/img/pokedex.jpg";
 import construcao from "../assets/img/construcao.png";
+import ageCalculator from "../assets/img/ageCalculator.jpg";
+
 
 export default function Projects() {
   const projects = [
@@ -27,12 +29,12 @@ export default function Projects() {
       colSpan: "col-span-1 md:col-span-2",
     },
     {
-      title: "Barbearia Ponto Chique",
-      description: "Primeiro site dessa barbearia.",
+      title: "Age Calculator",
+      description: "Age calculator app.",
       image:
-        barberImg,
-      link: "https://gentle-faloodeh-95b399.netlify.app/",
-      repo: "https://github.com/VandersonTavares/barbershop",
+      ageCalculator,
+      link: "#",
+      repo: "https://github.com/VandersonTavares/age-calculator",
       colSpan: "col-span-1",
     },
     {
