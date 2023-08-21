@@ -2,7 +2,6 @@ import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 import { AiFillGithub } from "react-icons/ai";
 
 import reactComponent from "../assets/img/react-component.jpg";
-import barberImg from "../assets/img/barber-image-2.jpg";
 import vscode from "../assets/img/vscode-img.png";
 import pokedex from "../assets/img/pokedex.jpg";
 import construcao from "../assets/img/construcao.png";
