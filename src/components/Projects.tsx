@@ -1,7 +1,7 @@
 import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 import { AiFillGithub } from "react-icons/ai";
 
-import fenixImg from "../assets/img/fenix-image2.jpg";
+import reactComponent from "../assets/img/react-component.jpg";
 import barberImg from "../assets/img/barber-image-2.jpg";
 import vscode from "../assets/img/vscode-img.png";
 import pokedex from "../assets/img/pokedex.jpg";
@@ -10,12 +10,12 @@ import construcao from "../assets/img/construcao.png";
 export default function Projects() {
   const projects = [
     {
-      title: "Colégio Fênix",
-      description: "Projeto desatualizado, não responsivo.",
+      title: "Results summary component",
+      description: "Frontend Mentor Challenge.",
       image:
-        fenixImg,
-      link: "https://adorable-sundae-b89d6e.netlify.app/",
-      repo: "https://github.com/VandersonTavares/colegio-fenix",
+      reactComponent,
+      link: "",
+      repo: "https://github.com/VandersonTavares/results-summary-component",
       colSpan: "col-span-1",
     },
     {
