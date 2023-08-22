@@ -34,7 +34,7 @@ export default function Skills() {
     {
       name: "JavaScript",
       icon: javascript,
-      level: 65,
+      level: 85,
     },
     {
       name: "React.js",
