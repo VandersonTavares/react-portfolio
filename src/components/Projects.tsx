@@ -2,7 +2,7 @@ import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 import { AiFillGithub } from "react-icons/ai";
 
 import reactComponent from "../assets/img/react-component.jpg";
-import vscode from "../assets/img/vscode-img.png";
+import tipCalculator from "../assets/img/tipcalculator.jpg";
 import pokedex from "../assets/img/pokedex.jpg";
 import construcao from "../assets/img/construcao.png";
 import ageCalculator from "../assets/img/ageCalculator.jpg";
@@ -37,12 +37,12 @@ export default function Projects() {
       colSpan: "col-span-1",
     },
     {
-      title: "Vs-Code Protfolio",
-      description: "Meu primeiro portfolio inspirado na IDE.",
+      title: "Tip Calculator App",
+      description: "Calculadora de Gorjetas.",
       image:
-        vscode,
-      link: "https://old-vandersonportfolio.netlify.app/",
-      repo: "https://github.com/VandersonTavares/vscode-portifolio",
+      tipCalculator,
+      link: "https://benevolent-druid-ddd94e.netlify.app",
+      repo: "https://github.com/VandersonTavares/tip-calculator-app",
       colSpan: "col-span-1",
     },
     {
