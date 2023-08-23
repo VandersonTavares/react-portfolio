@@ -4,7 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 import reactComponent from "../assets/img/react-component.jpg";
 import tipCalculator from "../assets/img/tipcalculator.jpg";
 import pokedex from "../assets/img/pokedex.jpg";
-import construcao from "../assets/img/construcao.png";
+import restCountries from "../assets/img/rest-countries.jpg";
 import ageCalculator from "../assets/img/ageCalculator.jpg";
 
 
@@ -20,10 +20,10 @@ export default function Projects() {
       colSpan: "col-span-1",
     },
     {
-      title: "CheckSpeech AI",
-      description: "Desafio Desenvolvedor Front-End da MostQi.",
-      image: construcao,
-      repo: "https://github.com/VandersonTavares/CheckSpeechAi",
+      title: "Rest Countries API (EM DESENVOLVIMENTO)",
+      description: "Frontend Mentor Challenge.",
+      image: restCountries,
+      repo: "https://github.com/VandersonTavares/rest-countries-api",
       link: "#",
       colSpan: "col-span-1 md:col-span-2",
     },

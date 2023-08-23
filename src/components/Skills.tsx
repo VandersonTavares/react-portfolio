@@ -46,6 +46,7 @@ export default function Skills() {
       icon: node,
       level: 50,
     },
+    
   ]
 
   return (
