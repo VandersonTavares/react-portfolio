@@ -24,7 +24,7 @@ export default function Projects() {
       description: "Frontend Mentor Challenge.",
       image: restCountries,
       repo: "https://github.com/VandersonTavares/rest-countries-api",
-      link: "#",
+      link: "https://eloquent-lolly-c70694.netlify.app",
       colSpan: "col-span-1 md:col-span-2",
     },
     {
