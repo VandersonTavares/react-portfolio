@@ -20,7 +20,7 @@ export default function Projects() {
       colSpan: "col-span-1",
     },
     {
-      title: "Rest Countries API (EM DESENVOLVIMENTO)",
+      title: "Rest Countries API (90%...)",
       description: "Frontend Mentor Challenge.",
       image: restCountries,
       repo: "https://github.com/VandersonTavares/rest-countries-api",
