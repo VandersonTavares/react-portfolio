@@ -1,22 +1,22 @@
 import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 import { AiFillGithub } from "react-icons/ai";
 
-import reactComponent from "../assets/img/react-component.jpg";
 import tipCalculator from "../assets/img/tipcalculator.jpg";
 import pokedex from "../assets/img/pokedex.jpg";
 import restCountries from "../assets/img/rest-countries.jpg";
 import ageCalculator from "../assets/img/ageCalculator.jpg";
+import ecommercePage from "../assets/img/comerce3.jpg"
 
 
 export default function Projects() {
   const projects = [
     {
-      title: "Results summary component",
-      description: "Frontend Mentor Challenge.",
+      title: "E-commerce product page",
+      description: "Learning VueJs, Vuetify and Pinia. (90%)",
       image:
-      reactComponent,
-      link: "",
-      repo: "https://github.com/VandersonTavares/results-summary-component",
+      ecommercePage,
+      link: "https://delightful-crisp-cacbaa.netlify.app/",
+      repo: "https://github.com/VandersonTavares/vue-ecommerce-page",
       colSpan: "col-span-1",
     },
     {

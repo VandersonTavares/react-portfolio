@@ -4,6 +4,7 @@ import html from "../assets/img/html.svg";
 import javascript from "../assets/img/javascript.svg";
 import react from "../assets/img/react.svg";
 import node from "../assets/img/nodejs.svg";
+import vuejs from "../assets/img/vue-js.svg";
 
 
 export default function Skills() {
@@ -39,7 +40,12 @@ export default function Skills() {
     {
       name: "React.js",
       icon: react,
-      level: 65,
+      level: 79,
+    },
+    {
+      name: "Vue.Js",
+      icon: vuejs,
+      level: 53
     },
     {
       name: "Node.js",
@@ -63,7 +69,7 @@ export default function Skills() {
           </h2>
           <p className="relative text-sm text-gray-700">
             Front-end Developer | React.js | React Native | Node.js | TypeScript
-            | JavaScript
+            | JavaScript | Vue.Js
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
         </div>
