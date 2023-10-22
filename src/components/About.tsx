@@ -1,6 +1,18 @@
+import { useEffect, useState } from "react";
 import perfilImg from "../assets/img/perfil.png";
 
+
 export default function About() {
+  
+  const bornDate = 1989; // Data fixa de nascimento
+  const [age, setAge] = useState(0);
+
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    const calculatedAge = currentYear - bornDate;
+    setAge(calculatedAge);
+  }, []);
+
   return (
     <section className="container mx-auto my-4 max-w-5xl p-4">
       <div className="relative p-4 text-center">
@@ -15,7 +27,7 @@ export default function About() {
       </div>
 
       <div className="mx-auto mt-20 max-w-lg">
-        <div className="relative w-full rounded-lg bg-blue-100 p-4 ps-20 md:h-64 md:ps-48">
+        <div className="relative w-full rounded-lg bg-blue-100 p-4 ps-20 md:h-64 md:w-[550px] md:ps-48">
           <div className="relative h-full w-full rounded-lg bg-gray-50 p-4">
             <p className="font-handwriting text-lg font-bold">Olá,</p>
             <p>
@@ -31,7 +43,7 @@ export default function About() {
                   <td className="font-headline font-bold uppercase text-blue-900">
                     Idade:
                   </td>
-                  <td>33</td>
+                  <td>{age}</td>
                 </tr>
                 <tr>
                   <td className="font-headline font-bold uppercase text-blue-900">
@@ -52,10 +64,10 @@ export default function About() {
                   </td>
                   <td>
                     <a
-                      href="mailto:zerobyrox@gmail.com"
+                      href="mailto:vandersontavares32@gmail.com"
                       className="underline hover:text-blue-800"
                     >
-                      zerobyrox@gmail.com
+                      vandersontavares32@gmail.com
                     </a>
                   </td>
                 </tr>
@@ -79,8 +91,8 @@ export default function About() {
                   </td>
                   <td>
                     <span className="relative flex h-3 w-3">
-                      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-                      <span className="relative inline-flex h-3 w-3 rounded-full bg-green-500"></span>
+                      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-red-400 opacity-75"></span>
+                      <span className="relative inline-flex h-3 w-3 rounded-full bg-red-500"></span>
                     </span>
                   </td>
                 </tr>
